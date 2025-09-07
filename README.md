@@ -31,15 +31,19 @@ The code uses crypto.randomUUID() for IDs (supported in modern browsers).
 
 🚀 Quick Start
 # 1) Clone
+```bash
 git clone https://github.com/<your-username>/family-chores-react.git
 cd family-chores-react
-
+```
 # 2) Install deps
+```bash
 npm install
+```
 
 # 3) Start dev server
-npm run dev     # Vite
-# or
-npm start       # CRA
+```bash
+
+npm start
+```
 
 ---
