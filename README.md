@@ -32,8 +32,8 @@ The code uses crypto.randomUUID() for IDs (supported in modern browsers).
 🚀 Quick Start
 # 1) Clone
 ```bash
-git clone https://github.com/<your-username>/family-chores-react.git
-cd family-chores-react
+git clone https://github.com/yana-hris/React-chore-sharing.git
+cd React-chore-sharing
 ```
 # 2) Install deps
 ```bash
