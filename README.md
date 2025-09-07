@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+Family Chores — React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A tiny React app for sharing chores in the family. Add family members, create chores with point values, and assign chores to keep things fair(-ish) and visible.
 
-## Available Scripts
+✨ This is a learning/demo project focused on React state and simple UI patterns — no backend or auth.
 
-In the project directory, you can run:
+✨ Features
 
-### `npm start`
+Add family members with name + avatar
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Add chores with a title and point value
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Assign unassigned chores to a selected member
 
-### `npm test`
+See each member’s assigned chores and total score
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Quick list of unassigned chores to keep the backlog clear
 
-### `npm run build`
+🧩 Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+React (Hooks / useState)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Create React App 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Plain CSS (class names like button, app, sidebar, etc.)
 
-### `npm run eject`
+Avatars via https://i.pravatar.cc
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The code uses crypto.randomUUID() for IDs (supported in modern browsers).
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🚀 Quick Start
+# 1) Clone
+git clone https://github.com/<your-username>/family-chores-react.git
+cd family-chores-react
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# 2) Install deps
+npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# 3) Start dev server
+npm run dev     # Vite
+# or
+npm start       # CRA
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
